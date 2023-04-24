@@ -14,6 +14,7 @@ class FormularioLogin(tk.Frame):
         self.nombre = tk.StringVar()
         tk.Entry(self.master, textvariable=self.nombre).grid(row=0, column=1)
 
+
         tk.Label(self.master, text='¿Cual es tu primer apellido?:').grid(row=1, column=0)
         self.apellido1 = tk.StringVar()
         tk.Entry(self.master, textvariable=self.apellido1).grid(row=1, column=1)
